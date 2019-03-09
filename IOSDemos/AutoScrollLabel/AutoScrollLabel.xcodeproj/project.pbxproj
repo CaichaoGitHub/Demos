@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01DEEB81BD8C5DF005E7296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DEEB71BD8C5DF005E7296 /* main.m */; };
+		D01DEEBB1BD8C5DF005E7296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DEEBA1BD8C5DF005E7296 /* AppDelegate.m */; };
+		D01DEEBE1BD8C5DF005E7296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DEEBD1BD8C5DF005E7296 /* ViewController.m */; };
+		D01DEEC11BD8C5DF005E7296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01DEEBF1BD8C5DF005E7296 /* Main.storyboard */; };
+		D01DEEC41BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D01DEEC21BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodeld */; };
+		D01DEEC61BD8C5DF005E7296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01DEEC51BD8C5DF005E7296 /* Assets.xcassets */; };
+		D01DEEC91BD8C5DF005E7296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01DEEC71BD8C5DF005E7296 /* LaunchScreen.storyboard */; };
+		D01DEED41BD8C5DF005E7296 /* AutoScrollLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DEED31BD8C5DF005E7296 /* AutoScrollLabelTests.m */; };
+		D01DEEDF1BD8C5DF005E7296 /* AutoScrollLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DEEDE1BD8C5DF005E7296 /* AutoScrollLabelUITests.m */; };
+		D01DEEEE1BD8C65E005E7296 /* CarouselLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DEEED1BD8C65E005E7296 /* CarouselLabel.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01DEED01BD8C5DF005E7296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DEEAB1BD8C5DF005E7296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01DEEB21BD8C5DF005E7296;
+			remoteInfo = AutoScrollLabel;
+		};
+		D01DEEDB1BD8C5DF005E7296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DEEAB1BD8C5DF005E7296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01DEEB21BD8C5DF005E7296;
+			remoteInfo = AutoScrollLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D01DEEB31BD8C5DF005E7296 /* AutoScrollLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoScrollLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01DEEB71BD8C5DF005E7296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D01DEEB91BD8C5DF005E7296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D01DEEBA1BD8C5DF005E7296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D01DEEBC1BD8C5DF005E7296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D01DEEBD1BD8C5DF005E7296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D01DEEC01BD8C5DF005E7296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D01DEEC31BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoScrollLabel.xcdatamodel; sourceTree = "<group>"; };
+		D01DEEC51BD8C5DF005E7296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01DEEC81BD8C5DF005E7296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D01DEECA1BD8C5DF005E7296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01DEECF1BD8C5DF005E7296 /* AutoScrollLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01DEED31BD8C5DF005E7296 /* AutoScrollLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabelTests.m; sourceTree = "<group>"; };
+		D01DEED51BD8C5DF005E7296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01DEEDA1BD8C5DF005E7296 /* AutoScrollLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01DEEDE1BD8C5DF005E7296 /* AutoScrollLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabelUITests.m; sourceTree = "<group>"; };
+		D01DEEE01BD8C5DF005E7296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01DEEEC1BD8C65E005E7296 /* CarouselLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselLabel.h; sourceTree = "<group>"; };
+		D01DEEED1BD8C65E005E7296 /* CarouselLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01DEEB01BD8C5DF005E7296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01DEECC1BD8C5DF005E7296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01DEED71BD8C5DF005E7296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01DEEAA1BD8C5DF005E7296 = {
+			isa = PBXGroup;
+			children = (
+				D01DEEB51BD8C5DF005E7296 /* AutoScrollLabel */,
+				D01DEED21BD8C5DF005E7296 /* AutoScrollLabelTests */,
+				D01DEEDD1BD8C5DF005E7296 /* AutoScrollLabelUITests */,
+				D01DEEB41BD8C5DF005E7296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01DEEB41BD8C5DF005E7296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01DEEB31BD8C5DF005E7296 /* AutoScrollLabel.app */,
+				D01DEECF1BD8C5DF005E7296 /* AutoScrollLabelTests.xctest */,
+				D01DEEDA1BD8C5DF005E7296 /* AutoScrollLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01DEEB51BD8C5DF005E7296 /* AutoScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D01DEEB91BD8C5DF005E7296 /* AppDelegate.h */,
+				D01DEEBA1BD8C5DF005E7296 /* AppDelegate.m */,
+				D01DEEBC1BD8C5DF005E7296 /* ViewController.h */,
+				D01DEEBD1BD8C5DF005E7296 /* ViewController.m */,
+				D01DEEBF1BD8C5DF005E7296 /* Main.storyboard */,
+				D01DEEC51BD8C5DF005E7296 /* Assets.xcassets */,
+				D01DEEC71BD8C5DF005E7296 /* LaunchScreen.storyboard */,
+				D01DEECA1BD8C5DF005E7296 /* Info.plist */,
+				D01DEEC21BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodeld */,
+				D01DEEB61BD8C5DF005E7296 /* Supporting Files */,
+				D01DEEEC1BD8C65E005E7296 /* CarouselLabel.h */,
+				D01DEEED1BD8C65E005E7296 /* CarouselLabel.m */,
+			);
+			path = AutoScrollLabel;
+			sourceTree = "<group>";
+		};
+		D01DEEB61BD8C5DF005E7296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D01DEEB71BD8C5DF005E7296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D01DEED21BD8C5DF005E7296 /* AutoScrollLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D01DEED31BD8C5DF005E7296 /* AutoScrollLabelTests.m */,
+				D01DEED51BD8C5DF005E7296 /* Info.plist */,
+			);
+			path = AutoScrollLabelTests;
+			sourceTree = "<group>";
+		};
+		D01DEEDD1BD8C5DF005E7296 /* AutoScrollLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D01DEEDE1BD8C5DF005E7296 /* AutoScrollLabelUITests.m */,
+				D01DEEE01BD8C5DF005E7296 /* Info.plist */,
+			);
+			path = AutoScrollLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01DEEB21BD8C5DF005E7296 /* AutoScrollLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01DEEE31BD8C5DF005E7296 /* Build configuration list for PBXNativeTarget "AutoScrollLabel" */;
+			buildPhases = (
+				D01DEEAF1BD8C5DF005E7296 /* Sources */,
+				D01DEEB01BD8C5DF005E7296 /* Frameworks */,
+				D01DEEB11BD8C5DF005E7296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoScrollLabel;
+			productName = AutoScrollLabel;
+			productReference = D01DEEB31BD8C5DF005E7296 /* AutoScrollLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01DEECE1BD8C5DF005E7296 /* AutoScrollLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01DEEE61BD8C5DF005E7296 /* Build configuration list for PBXNativeTarget "AutoScrollLabelTests" */;
+			buildPhases = (
+				D01DEECB1BD8C5DF005E7296 /* Sources */,
+				D01DEECC1BD8C5DF005E7296 /* Frameworks */,
+				D01DEECD1BD8C5DF005E7296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01DEED11BD8C5DF005E7296 /* PBXTargetDependency */,
+			);
+			name = AutoScrollLabelTests;
+			productName = AutoScrollLabelTests;
+			productReference = D01DEECF1BD8C5DF005E7296 /* AutoScrollLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D01DEED91BD8C5DF005E7296 /* AutoScrollLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01DEEE91BD8C5DF005E7296 /* Build configuration list for PBXNativeTarget "AutoScrollLabelUITests" */;
+			buildPhases = (
+				D01DEED61BD8C5DF005E7296 /* Sources */,
+				D01DEED71BD8C5DF005E7296 /* Frameworks */,
+				D01DEED81BD8C5DF005E7296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01DEEDC1BD8C5DF005E7296 /* PBXTargetDependency */,
+			);
+			name = AutoScrollLabelUITests;
+			productName = AutoScrollLabelUITests;
+			productReference = D01DEEDA1BD8C5DF005E7296 /* AutoScrollLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01DEEAB1BD8C5DF005E7296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Caichao;
+				TargetAttributes = {
+					D01DEEB21BD8C5DF005E7296 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D01DEECE1BD8C5DF005E7296 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D01DEEB21BD8C5DF005E7296;
+					};
+					D01DEED91BD8C5DF005E7296 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D01DEEB21BD8C5DF005E7296;
+					};
+				};
+			};
+			buildConfigurationList = D01DEEAE1BD8C5DF005E7296 /* Build configuration list for PBXProject "AutoScrollLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D01DEEAA1BD8C5DF005E7296;
+			productRefGroup = D01DEEB41BD8C5DF005E7296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01DEEB21BD8C5DF005E7296 /* AutoScrollLabel */,
+				D01DEECE1BD8C5DF005E7296 /* AutoScrollLabelTests */,
+				D01DEED91BD8C5DF005E7296 /* AutoScrollLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01DEEB11BD8C5DF005E7296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01DEEC91BD8C5DF005E7296 /* LaunchScreen.storyboard in Resources */,
+				D01DEEC61BD8C5DF005E7296 /* Assets.xcassets in Resources */,
+				D01DEEC11BD8C5DF005E7296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01DEECD1BD8C5DF005E7296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01DEED81BD8C5DF005E7296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01DEEAF1BD8C5DF005E7296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01DEEC41BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodeld in Sources */,
+				D01DEEBE1BD8C5DF005E7296 /* ViewController.m in Sources */,
+				D01DEEEE1BD8C65E005E7296 /* CarouselLabel.m in Sources */,
+				D01DEEBB1BD8C5DF005E7296 /* AppDelegate.m in Sources */,
+				D01DEEB81BD8C5DF005E7296 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01DEECB1BD8C5DF005E7296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01DEED41BD8C5DF005E7296 /* AutoScrollLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01DEED61BD8C5DF005E7296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01DEEDF1BD8C5DF005E7296 /* AutoScrollLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01DEED11BD8C5DF005E7296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01DEEB21BD8C5DF005E7296 /* AutoScrollLabel */;
+			targetProxy = D01DEED01BD8C5DF005E7296 /* PBXContainerItemProxy */;
+		};
+		D01DEEDC1BD8C5DF005E7296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01DEEB21BD8C5DF005E7296 /* AutoScrollLabel */;
+			targetProxy = D01DEEDB1BD8C5DF005E7296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D01DEEBF1BD8C5DF005E7296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01DEEC01BD8C5DF005E7296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D01DEEC71BD8C5DF005E7296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01DEEC81BD8C5DF005E7296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D01DEEE11BD8C5DF005E7296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D01DEEE21BD8C5DF005E7296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01DEEE41BD8C5DF005E7296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = AutoScrollLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.AutoScrollLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D01DEEE51BD8C5DF005E7296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = AutoScrollLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.AutoScrollLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D01DEEE71BD8C5DF005E7296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoScrollLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.AutoScrollLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoScrollLabel.app/AutoScrollLabel";
+			};
+			name = Debug;
+		};
+		D01DEEE81BD8C5DF005E7296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoScrollLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.AutoScrollLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoScrollLabel.app/AutoScrollLabel";
+			};
+			name = Release;
+		};
+		D01DEEEA1BD8C5DF005E7296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoScrollLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.AutoScrollLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoScrollLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D01DEEEB1BD8C5DF005E7296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoScrollLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.AutoScrollLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoScrollLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01DEEAE1BD8C5DF005E7296 /* Build configuration list for PBXProject "AutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01DEEE11BD8C5DF005E7296 /* Debug */,
+				D01DEEE21BD8C5DF005E7296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01DEEE31BD8C5DF005E7296 /* Build configuration list for PBXNativeTarget "AutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01DEEE41BD8C5DF005E7296 /* Debug */,
+				D01DEEE51BD8C5DF005E7296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D01DEEE61BD8C5DF005E7296 /* Build configuration list for PBXNativeTarget "AutoScrollLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01DEEE71BD8C5DF005E7296 /* Debug */,
+				D01DEEE81BD8C5DF005E7296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D01DEEE91BD8C5DF005E7296 /* Build configuration list for PBXNativeTarget "AutoScrollLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01DEEEA1BD8C5DF005E7296 /* Debug */,
+				D01DEEEB1BD8C5DF005E7296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D01DEEC21BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D01DEEC31BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodel */,
+			);
+			currentVersion = D01DEEC31BD8C5DF005E7296 /* AutoScrollLabel.xcdatamodel */;
+			path = AutoScrollLabel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D01DEEAB1BD8C5DF005E7296 /* Project object */;
+}

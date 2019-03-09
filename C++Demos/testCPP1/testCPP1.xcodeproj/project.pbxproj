@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03E6D0719CC0C7F00174A0C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D03E6D0619CC0C7F00174A0C /* main.cpp */; };
+		D03E6D1019CC0D2B00174A0C /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D03E6D0E19CC0D2B00174A0C /* cpu.cpp */; };
+		D03F5D1019D119B600798DFE /* Cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D03F5D0E19D119B600798DFE /* Cache.cpp */; };
+		D0453ACD19D3B816009710B1 /* BuilderMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0453ACB19D3B816009710B1 /* BuilderMode.cpp */; };
+		D0453AD219D3C7F7009710B1 /* FacadeMode&CompositeMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0453AD019D3C7F7009710B1 /* FacadeMode&CompositeMode.cpp */; };
+		D04F35C919D2604C00DBC8CE /* AdapterMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04F35C719D2604C00DBC8CE /* AdapterMode.cpp */; };
+		D04F35CD19D2652800DBC8CE /* SingletonMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04F35CB19D2652800DBC8CE /* SingletonMode.cpp */; };
+		D04F362019D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04F361E19D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.cpp */; };
+		D051771919D7A903007A6C2C /* BridgeMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051771719D7A903007A6C2C /* BridgeMode.cpp */; };
+		D051771D19D7ACE0007A6C2C /* DecoratorMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051771B19D7ACE0007A6C2C /* DecoratorMode.cpp */; };
+		D051772119D7B401007A6C2C /* MementoMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051771F19D7B401007A6C2C /* MementoMode.cpp */; };
+		D051772619D7BB6E007A6C2C /* MediatorMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051772419D7BB6E007A6C2C /* MediatorMode.cpp */; };
+		D051772A19D7D51E007A6C2C /* ChainOfResponsibilityMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051772819D7D51E007A6C2C /* ChainOfResponsibilityMode.cpp */; };
+		D051772E19D7D94D007A6C2C /* Publish&SubscribeMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051772C19D7D94D007A6C2C /* Publish&SubscribeMode.cpp */; };
+		D051773219D7E135007A6C2C /* StatusMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D051773019D7E135007A6C2C /* StatusMode.cpp */; };
+		D056BB9C1A4970EE008D5C12 /* MultiThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D056BB9A1A4970EE008D5C12 /* MultiThread.cpp */; };
+		D065625619D15CC9008ADDE0 /* C11NewFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D065625419D15CC9008ADDE0 /* C11NewFeature.cpp */; };
+		D06682B919D56BE1004C8AFE /* ProxyMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D06682B719D56BE1004C8AFE /* ProxyMode.cpp */; };
+		D06682BD19D5754B004C8AFE /* FlyweightMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D06682BB19D5754B004C8AFE /* FlyweightMode.cpp */; };
+		D0741A411BF6DB2800830DC3 /* C11FeatureReview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0741A3F1BF6DB2800830DC3 /* C11FeatureReview.cpp */; settings = {ASSET_TAGS = (); }; };
+		D081E5101A43D34000592102 /* CPPNewFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D081E50E1A43D34000592102 /* CPPNewFeature.cpp */; };
+		D0D246501BD633550046D061 /* UMLDiagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D2464E1BD633550046D061 /* UMLDiagram.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D03E6D0119CC0C7F00174A0C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D03E6D0319CC0C7F00174A0C /* testCPP1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testCPP1; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03E6D0619CC0C7F00174A0C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D03E6D0E19CC0D2B00174A0C /* cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpu.cpp; path = testCPP1/cpu.cpp; sourceTree = "<group>"; };
+		D03E6D0F19CC0D2B00174A0C /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = testCPP1/cpu.h; sourceTree = "<group>"; };
+		D03F5D0E19D119B600798DFE /* Cache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cache.cpp; sourceTree = "<group>"; };
+		D03F5D0F19D119B600798DFE /* Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		D0453ACB19D3B816009710B1 /* BuilderMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuilderMode.cpp; sourceTree = "<group>"; };
+		D0453ACC19D3B816009710B1 /* BuilderMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderMode.h; sourceTree = "<group>"; };
+		D0453AD019D3C7F7009710B1 /* FacadeMode&CompositeMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "FacadeMode&CompositeMode.cpp"; sourceTree = "<group>"; };
+		D0453AD119D3C7F7009710B1 /* FacadeMode&CompositeMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FacadeMode&CompositeMode.h"; sourceTree = "<group>"; };
+		D04F35C719D2604C00DBC8CE /* AdapterMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdapterMode.cpp; sourceTree = "<group>"; };
+		D04F35C819D2604C00DBC8CE /* AdapterMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterMode.h; sourceTree = "<group>"; };
+		D04F35CB19D2652800DBC8CE /* SingletonMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonMode.cpp; sourceTree = "<group>"; };
+		D04F35CC19D2652800DBC8CE /* SingletonMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonMode.h; sourceTree = "<group>"; };
+		D04F361E19D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ProtoTypeMode&TemplateMode.cpp"; sourceTree = "<group>"; };
+		D04F361F19D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProtoTypeMode&TemplateMode.h"; sourceTree = "<group>"; };
+		D051771719D7A903007A6C2C /* BridgeMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BridgeMode.cpp; sourceTree = "<group>"; };
+		D051771819D7A903007A6C2C /* BridgeMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeMode.h; sourceTree = "<group>"; };
+		D051771B19D7ACE0007A6C2C /* DecoratorMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DecoratorMode.cpp; sourceTree = "<group>"; };
+		D051771C19D7ACE0007A6C2C /* DecoratorMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorMode.h; sourceTree = "<group>"; };
+		D051771F19D7B401007A6C2C /* MementoMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MementoMode.cpp; sourceTree = "<group>"; };
+		D051772019D7B401007A6C2C /* MementoMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoMode.h; sourceTree = "<group>"; };
+		D051772419D7BB6E007A6C2C /* MediatorMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MediatorMode.cpp; sourceTree = "<group>"; };
+		D051772519D7BB6E007A6C2C /* MediatorMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorMode.h; sourceTree = "<group>"; };
+		D051772819D7D51E007A6C2C /* ChainOfResponsibilityMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChainOfResponsibilityMode.cpp; sourceTree = "<group>"; };
+		D051772919D7D51E007A6C2C /* ChainOfResponsibilityMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainOfResponsibilityMode.h; sourceTree = "<group>"; };
+		D051772C19D7D94D007A6C2C /* Publish&SubscribeMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Publish&SubscribeMode.cpp"; sourceTree = "<group>"; };
+		D051772D19D7D94D007A6C2C /* Publish&SubscribeMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Publish&SubscribeMode.h"; sourceTree = "<group>"; };
+		D051773019D7E135007A6C2C /* StatusMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StatusMode.cpp; sourceTree = "<group>"; };
+		D051773119D7E135007A6C2C /* StatusMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMode.h; sourceTree = "<group>"; };
+		D056BB9A1A4970EE008D5C12 /* MultiThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiThread.cpp; sourceTree = "<group>"; };
+		D056BB9B1A4970EE008D5C12 /* MultiThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
+		D065625419D15CC9008ADDE0 /* C11NewFeature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C11NewFeature.cpp; sourceTree = "<group>"; };
+		D065625519D15CC9008ADDE0 /* C11NewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C11NewFeature.h; sourceTree = "<group>"; };
+		D06682B719D56BE1004C8AFE /* ProxyMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProxyMode.cpp; sourceTree = "<group>"; };
+		D06682B819D56BE1004C8AFE /* ProxyMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyMode.h; sourceTree = "<group>"; };
+		D06682BB19D5754B004C8AFE /* FlyweightMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlyweightMode.cpp; sourceTree = "<group>"; };
+		D06682BC19D5754B004C8AFE /* FlyweightMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightMode.h; sourceTree = "<group>"; };
+		D0741A3F1BF6DB2800830DC3 /* C11FeatureReview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C11FeatureReview.cpp; sourceTree = "<group>"; };
+		D0741A401BF6DB2800830DC3 /* C11FeatureReview.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C11FeatureReview.hpp; sourceTree = "<group>"; };
+		D081E50E1A43D34000592102 /* CPPNewFeature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPNewFeature.cpp; sourceTree = "<group>"; };
+		D081E50F1A43D34000592102 /* CPPNewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPNewFeature.h; sourceTree = "<group>"; };
+		D0D2464E1BD633550046D061 /* UMLDiagram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UMLDiagram.cpp; sourceTree = "<group>"; };
+		D0D2464F1BD633550046D061 /* UMLDiagram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UMLDiagram.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03E6D0019CC0C7F00174A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03E6CFA19CC0C7F00174A0C = {
+			isa = PBXGroup;
+			children = (
+				D0D2464E1BD633550046D061 /* UMLDiagram.cpp */,
+				D0D2464F1BD633550046D061 /* UMLDiagram.hpp */,
+				D056BB991A4970CB008D5C12 /* CPPMultiThread */,
+				D081E50D1A43D31F00592102 /* CPPNewFeature */,
+				D051772F19D7E126007A6C2C /* StatusMode */,
+				D051772B19D7D92E007A6C2C /* Publish&SubscribeMode */,
+				D051772719D7D4F7007A6C2C /* ChainOfResponsibilityMode */,
+				D051772219D7BB4F007A6C2C /* MediatorMode */,
+				D051771E19D7B3F0007A6C2C /* MementoMode */,
+				D051771A19D7AC90007A6C2C /* DecoratorMode */,
+				D051771619D7A8E9007A6C2C /* BridgeMode */,
+				D06682BA19D57536004C8AFE /* FlyweightMode */,
+				D06682B619D56BCA004C8AFE /* ProxyMode */,
+				D0453ACE19D3C765009710B1 /* FacadeMode&CompositeMode */,
+				D0453ACA19D3B798009710B1 /* BuilderMode */,
+				D04F361D19D28FB700DBC8CE /* ProtoTypeMode&TemplateMode */,
+				D04F35CA19D264FF00DBC8CE /* SingletonMode */,
+				D04F35C619D2602900DBC8CE /* AdapterMode */,
+				D03F5D1219D1254500798DFE /* StrategyMode */,
+				D03F5D1119D1253800798DFE /* FactoryMode */,
+				D065625319D15CA0008ADDE0 /* C11NewFeature */,
+				D03E6D0519CC0C7F00174A0C /* testCPP1 */,
+				D03E6D0419CC0C7F00174A0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03E6D0419CC0C7F00174A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03E6D0319CC0C7F00174A0C /* testCPP1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03E6D0519CC0C7F00174A0C /* testCPP1 */ = {
+			isa = PBXGroup;
+			children = (
+				D03E6D0619CC0C7F00174A0C /* main.cpp */,
+			);
+			path = testCPP1;
+			sourceTree = "<group>";
+		};
+		D03F5D1119D1253800798DFE /* FactoryMode */ = {
+			isa = PBXGroup;
+			children = (
+				D03E6D0E19CC0D2B00174A0C /* cpu.cpp */,
+				D03E6D0F19CC0D2B00174A0C /* cpu.h */,
+			);
+			name = FactoryMode;
+			sourceTree = "<group>";
+		};
+		D03F5D1219D1254500798DFE /* StrategyMode */ = {
+			isa = PBXGroup;
+			children = (
+				D03F5D0E19D119B600798DFE /* Cache.cpp */,
+				D03F5D0F19D119B600798DFE /* Cache.h */,
+			);
+			name = StrategyMode;
+			sourceTree = "<group>";
+		};
+		D0453ACA19D3B798009710B1 /* BuilderMode */ = {
+			isa = PBXGroup;
+			children = (
+				D0453ACB19D3B816009710B1 /* BuilderMode.cpp */,
+				D0453ACC19D3B816009710B1 /* BuilderMode.h */,
+			);
+			name = BuilderMode;
+			sourceTree = "<group>";
+		};
+		D0453ACE19D3C765009710B1 /* FacadeMode&CompositeMode */ = {
+			isa = PBXGroup;
+			children = (
+				D0453AD019D3C7F7009710B1 /* FacadeMode&CompositeMode.cpp */,
+				D0453AD119D3C7F7009710B1 /* FacadeMode&CompositeMode.h */,
+			);
+			name = "FacadeMode&CompositeMode";
+			sourceTree = "<group>";
+		};
+		D04F35C619D2602900DBC8CE /* AdapterMode */ = {
+			isa = PBXGroup;
+			children = (
+				D04F35C719D2604C00DBC8CE /* AdapterMode.cpp */,
+				D04F35C819D2604C00DBC8CE /* AdapterMode.h */,
+			);
+			name = AdapterMode;
+			sourceTree = "<group>";
+		};
+		D04F35CA19D264FF00DBC8CE /* SingletonMode */ = {
+			isa = PBXGroup;
+			children = (
+				D04F35CB19D2652800DBC8CE /* SingletonMode.cpp */,
+				D04F35CC19D2652800DBC8CE /* SingletonMode.h */,
+			);
+			name = SingletonMode;
+			sourceTree = "<group>";
+		};
+		D04F361D19D28FB700DBC8CE /* ProtoTypeMode&TemplateMode */ = {
+			isa = PBXGroup;
+			children = (
+				D04F361E19D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.cpp */,
+				D04F361F19D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.h */,
+			);
+			name = "ProtoTypeMode&TemplateMode";
+			sourceTree = "<group>";
+		};
+		D051771619D7A8E9007A6C2C /* BridgeMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051771719D7A903007A6C2C /* BridgeMode.cpp */,
+				D051771819D7A903007A6C2C /* BridgeMode.h */,
+			);
+			name = BridgeMode;
+			sourceTree = "<group>";
+		};
+		D051771A19D7AC90007A6C2C /* DecoratorMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051771B19D7ACE0007A6C2C /* DecoratorMode.cpp */,
+				D051771C19D7ACE0007A6C2C /* DecoratorMode.h */,
+			);
+			name = DecoratorMode;
+			sourceTree = "<group>";
+		};
+		D051771E19D7B3F0007A6C2C /* MementoMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051771F19D7B401007A6C2C /* MementoMode.cpp */,
+				D051772019D7B401007A6C2C /* MementoMode.h */,
+			);
+			name = MementoMode;
+			sourceTree = "<group>";
+		};
+		D051772219D7BB4F007A6C2C /* MediatorMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051772419D7BB6E007A6C2C /* MediatorMode.cpp */,
+				D051772519D7BB6E007A6C2C /* MediatorMode.h */,
+			);
+			name = MediatorMode;
+			sourceTree = "<group>";
+		};
+		D051772719D7D4F7007A6C2C /* ChainOfResponsibilityMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051772819D7D51E007A6C2C /* ChainOfResponsibilityMode.cpp */,
+				D051772919D7D51E007A6C2C /* ChainOfResponsibilityMode.h */,
+			);
+			name = ChainOfResponsibilityMode;
+			sourceTree = "<group>";
+		};
+		D051772B19D7D92E007A6C2C /* Publish&SubscribeMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051772C19D7D94D007A6C2C /* Publish&SubscribeMode.cpp */,
+				D051772D19D7D94D007A6C2C /* Publish&SubscribeMode.h */,
+			);
+			name = "Publish&SubscribeMode";
+			sourceTree = "<group>";
+		};
+		D051772F19D7E126007A6C2C /* StatusMode */ = {
+			isa = PBXGroup;
+			children = (
+				D051773019D7E135007A6C2C /* StatusMode.cpp */,
+				D051773119D7E135007A6C2C /* StatusMode.h */,
+			);
+			name = StatusMode;
+			sourceTree = "<group>";
+		};
+		D056BB991A4970CB008D5C12 /* CPPMultiThread */ = {
+			isa = PBXGroup;
+			children = (
+				D056BB9A1A4970EE008D5C12 /* MultiThread.cpp */,
+				D056BB9B1A4970EE008D5C12 /* MultiThread.h */,
+			);
+			name = CPPMultiThread;
+			sourceTree = "<group>";
+		};
+		D065625319D15CA0008ADDE0 /* C11NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D065625419D15CC9008ADDE0 /* C11NewFeature.cpp */,
+				D065625519D15CC9008ADDE0 /* C11NewFeature.h */,
+				D0741A3F1BF6DB2800830DC3 /* C11FeatureReview.cpp */,
+				D0741A401BF6DB2800830DC3 /* C11FeatureReview.hpp */,
+			);
+			name = C11NewFeature;
+			sourceTree = "<group>";
+		};
+		D06682B619D56BCA004C8AFE /* ProxyMode */ = {
+			isa = PBXGroup;
+			children = (
+				D06682B719D56BE1004C8AFE /* ProxyMode.cpp */,
+				D06682B819D56BE1004C8AFE /* ProxyMode.h */,
+			);
+			name = ProxyMode;
+			sourceTree = "<group>";
+		};
+		D06682BA19D57536004C8AFE /* FlyweightMode */ = {
+			isa = PBXGroup;
+			children = (
+				D06682BB19D5754B004C8AFE /* FlyweightMode.cpp */,
+				D06682BC19D5754B004C8AFE /* FlyweightMode.h */,
+			);
+			name = FlyweightMode;
+			sourceTree = "<group>";
+		};
+		D081E50D1A43D31F00592102 /* CPPNewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D081E50E1A43D34000592102 /* CPPNewFeature.cpp */,
+				D081E50F1A43D34000592102 /* CPPNewFeature.h */,
+			);
+			name = CPPNewFeature;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03E6D0219CC0C7F00174A0C /* testCPP1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03E6D0A19CC0C7F00174A0C /* Build configuration list for PBXNativeTarget "testCPP1" */;
+			buildPhases = (
+				D03E6CFF19CC0C7F00174A0C /* Sources */,
+				D03E6D0019CC0C7F00174A0C /* Frameworks */,
+				D03E6D0119CC0C7F00174A0C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testCPP1;
+			productName = testCPP1;
+			productReference = D03E6D0319CC0C7F00174A0C /* testCPP1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03E6CFB19CC0C7F00174A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = caichao;
+				TargetAttributes = {
+					D03E6D0219CC0C7F00174A0C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = D03E6CFE19CC0C7F00174A0C /* Build configuration list for PBXProject "testCPP1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D03E6CFA19CC0C7F00174A0C;
+			productRefGroup = D03E6D0419CC0C7F00174A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03E6D0219CC0C7F00174A0C /* testCPP1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03E6CFF19CC0C7F00174A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051771D19D7ACE0007A6C2C /* DecoratorMode.cpp in Sources */,
+				D03E6D1019CC0D2B00174A0C /* cpu.cpp in Sources */,
+				D04F362019D28FE200DBC8CE /* ProtoTypeMode&TemplateMode.cpp in Sources */,
+				D065625619D15CC9008ADDE0 /* C11NewFeature.cpp in Sources */,
+				D06682BD19D5754B004C8AFE /* FlyweightMode.cpp in Sources */,
+				D03E6D0719CC0C7F00174A0C /* main.cpp in Sources */,
+				D0741A411BF6DB2800830DC3 /* C11FeatureReview.cpp in Sources */,
+				D0453AD219D3C7F7009710B1 /* FacadeMode&CompositeMode.cpp in Sources */,
+				D0453ACD19D3B816009710B1 /* BuilderMode.cpp in Sources */,
+				D0D246501BD633550046D061 /* UMLDiagram.cpp in Sources */,
+				D051772619D7BB6E007A6C2C /* MediatorMode.cpp in Sources */,
+				D051772E19D7D94D007A6C2C /* Publish&SubscribeMode.cpp in Sources */,
+				D04F35C919D2604C00DBC8CE /* AdapterMode.cpp in Sources */,
+				D056BB9C1A4970EE008D5C12 /* MultiThread.cpp in Sources */,
+				D04F35CD19D2652800DBC8CE /* SingletonMode.cpp in Sources */,
+				D051772A19D7D51E007A6C2C /* ChainOfResponsibilityMode.cpp in Sources */,
+				D051771919D7A903007A6C2C /* BridgeMode.cpp in Sources */,
+				D03F5D1019D119B600798DFE /* Cache.cpp in Sources */,
+				D051772119D7B401007A6C2C /* MementoMode.cpp in Sources */,
+				D081E5101A43D34000592102 /* CPPNewFeature.cpp in Sources */,
+				D051773219D7E135007A6C2C /* StatusMode.cpp in Sources */,
+				D06682B919D56BE1004C8AFE /* ProxyMode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D03E6D0819CC0C7F00174A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D03E6D0919CC0C7F00174A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D03E6D0B19CC0C7F00174A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D03E6D0C19CC0C7F00174A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03E6CFE19CC0C7F00174A0C /* Build configuration list for PBXProject "testCPP1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03E6D0819CC0C7F00174A0C /* Debug */,
+				D03E6D0919CC0C7F00174A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03E6D0A19CC0C7F00174A0C /* Build configuration list for PBXNativeTarget "testCPP1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03E6D0B19CC0C7F00174A0C /* Debug */,
+				D03E6D0C19CC0C7F00174A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03E6CFB19CC0C7F00174A0C /* Project object */;
+}
