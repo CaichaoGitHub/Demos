@@ -11,7 +11,7 @@ class DuLinkList
 public:
     DuLinkList();
 
-    virtual void Test() = 0;
+    virtual void Test() = 0 ;
 
 private:
 
@@ -30,7 +30,7 @@ private:
 class DuT : public DuLinkList
 {
 public:
-
+    void Test() override;
 };
 
 #endif //DATASTRUCTURE_DULINKLIST_H
