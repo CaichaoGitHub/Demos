@@ -8,10 +8,25 @@
 class DuLinkList
 {
 
+    class Node;
+
 public:
+
+    static void Test();
+
     DuLinkList();
 
-    virtual void Test() = 0 ;
+    void PushBack(int e);
+    void PushFront(int e);
+    void PopFront();
+    void PopBack();
+
+    Node* GetNodeAtNext(int index);
+
+    void Insert(int e, int index);
+    void Delete(int index);
+
+    void Travse();
 
 private:
 
@@ -19,18 +34,13 @@ private:
     struct Node{
 
         int data;
-        Node *next;
-        Node *prior;
+        Node *next = nullptr;
+        Node *prior = nullptr;
 
     };
 
-    Node *root_ = nullptr;
-};
-
-class DuT : public DuLinkList
-{
-public:
-    void Test() override;
+    Node *head_ = nullptr;
+    Node *tail_ = nullptr;
 };
 
 #endif //DATASTRUCTURE_DULINKLIST_H
