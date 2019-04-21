@@ -84,5 +84,23 @@ int main() {
 
     Radixsort::Test();
 
+    int m = 1;
+    int &mref = m;
+
+    char str1[] = "abc";
+    char str2[] = "abc";
+    const char str3[] = "abc";
+    const char str4[] = "abc";
+    const char *str5 = "abc";
+    const char *str6 = "abc";
+    char *str7 = "abc";
+    char *str8 = "abc";
+
+    using namespace std;
+    cout << ( str1 == str2 ) << endl;//0  分别指向各自的栈内存
+    cout << ( str3 == str4 ) << endl;//0  分别指向各自的栈内存
+    cout << ( str5 == str6 ) << endl;//1指向文字常量区地址相同
+    cout << ( str7 == str8 ) << endl;//1指向文字常量区地址相同
+
     return 0;
 }
